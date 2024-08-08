@@ -1,0 +1,6 @@
+.add-icon::after{
+    /* content: <i class="text-white fa-solid fa-plus fa-6x"></i>; */
+    content: "\f067"; /* Unicode for Font Awesome plus icon */
+    font-family: "Font Awesome 5 Free"; /* Assuming you are using Font Awesome */
+    font-weight: 900; /* Required for solid icons */
+}

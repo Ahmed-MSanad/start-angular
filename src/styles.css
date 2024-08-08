@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.line-after-star{
+    @apply after:absolute after:w-24 after:pt-1 after:bg-black after:top-1/2 after:-translate-y-1/2 after:-end-32;
+}
+.line-before-star{
+    @apply before:absolute before:w-24 before:pt-1 before:bg-black before:top-1/2 before:-translate-y-1/2 before:-start-32;
+}
+
+@media (min-width: 576px) {
+    .container{
+        max-width: 540px;
+    }
+}
+@media (min-width: 768px) {
+    .container{
+        max-width: 720px;
+    }
+}
+@media (min-width: 992px) {
+    .container{
+        max-width: 960px;
+    }
+}
+@media (min-width: 1200px) {
+    .container{
+        max-width: 1140px;
+    }
+}

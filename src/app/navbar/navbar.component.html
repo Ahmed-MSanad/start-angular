@@ -1,0 +1,17 @@
+<nav class="bg-rose-500 text-white fixed top-0 left-0 end-0 z-50 py-5 transition-padding duration-700">
+
+    <div class="container">
+        <div class="flex flex-wrap justify-between items-center font-bold px-4">
+            <div>
+                <a routerLink="home" class="uppercase text-xl md:text-3xl text-nowrap">start framework</a>
+            </div>
+            <ul class="nav-links h-0 overflow-hidden transition-all duration-700 md:overflow-visible md:h-auto absolute top-full left-0 right-0 bg-rose-600 shadow-lg md:bg-inherit md:shadow-none md:static md:flex">
+                <li class="m-5 md:m-0"><a class="uppercase p-2" routerLinkActive="active-link" routerLink="about">about</a></li>
+                <li class="m-5 md:m-0 md:ms-4"><a class="uppercase p-2" routerLinkActive="active-link" routerLink="portfolio">portfolio</a></li>
+                <li class="m-5 md:m-0 md:ms-4"><a class="uppercase p-2" routerLinkActive="active-link" routerLink="contact">contact</a></li>
+            </ul>
+            <button class="md:hidden" (click)="showLinks()"><i class="fa-solid fa-bars fa-2x"></i></button>
+        </div>
+    </div>
+
+</nav>
